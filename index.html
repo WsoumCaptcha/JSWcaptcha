@@ -1,0 +1,52 @@
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<script data-cfasync="true" src="https://static.wsoum.ml/assets/js/wsoumjs-1.0.0.min.js" ></script>
+		<title>Wsoum Captcha</title>
+	</head>
+	<body>
+		<h1>Wsoum Captcha</h1>
+      
+      <!-- بداية كود كابشتا وسوم -->
+<script type="text/javascript"><!--
+    wcaptcha_options = {language: 'ar', key: 'API_KEY', background: '#ffffff', border: '#c1c1c1'};
+//--></script>
+<script type="text/javascript" src="https://captcha.wsoum.ml/wcaptcha.js"></script>
+<!-- نهاية كود كابتشا وسوم -->
+	
+	<div id="captcha_demo">
+	  <div id="submit_captcha" >أرسل</div>
+	  <br>
+	  <p>النتيجة:
+		<span id="captcha_result">قم بتجربتها</span></p>
+	  <span id="captcha_faild" style="display: none;">خاطئة</span>
+	  <span id="captcha_success" style="display: none;">صحيحة!</span>
+	</div>
+
+<style>
+#submit_captcha:hover {
+    background: #1fbfac;
+    transition: 0.5s;
+}
+
+#submit_captcha {
+    cursor: pointer;
+    text-decoration: none;
+    background: #2cb6a5;
+    color: #fff;
+    border: 2px solid #bfbfbf;
+    font-size: 16px;
+    padding: 2px;
+    border-radius: 7px;
+    transition: 0.5s;
+    margin-top: 17px;
+    margin-right: 16px;
+    width: 95px;
+    text-align: center;
+}
+</style>
+
+<script type="text/javascript" src="demo_captcha.js"></script>
+      
+	</body>
+</html>
