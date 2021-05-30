@@ -1,1 +1,1 @@
-# captcha_api
+# JavaScript Wsoum Captcha
